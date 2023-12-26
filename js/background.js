@@ -39,7 +39,7 @@ window.addEventListener("load", function () {
 
   
   const resize = function () {
-    canvasWidth = canvas.width = window.innerWidth * 0.99;
+    canvasWidth = canvas.width = window.innerWidth * 0.9;
     canvasHeight = canvas.height = window.innerHeight * 1.6;
     centerX = canvasWidth * 0.5;
     centerY = canvasHeight * 0.5;
