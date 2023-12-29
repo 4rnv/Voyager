@@ -223,3 +223,22 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+var fontType = [ "JL", "Crack Man", "Hangyaku"];
+      var num;
+      num=Math.floor(Math.random()*3);
+      document.getElementById("header").style.fontFamily =fontType[num];
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+      navigator.serviceWorker.register('js/sw.js').then(registration => {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, err => {
+          console.log('ServiceWorker registration failed: ', err);
+      }).catch(err => {
+          console.log(err);
+      });
+  });
+} else {
+  console.log('Service workers are not supported.');
+}

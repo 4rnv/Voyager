@@ -1,11 +1,16 @@
 @font-face {
   font-family: "Crack Man";
-  src: url(../crackman.otf);
+  src: url(../fonts/crackman.otf);
 }
 
 @font-face {
   font-family: "JL";
-  src: url(../JL.ttf);
+  src: url(../fonts/JL.ttf);
+}
+
+@font-face {
+  font-family: "Hangyaku";
+  src: url(../fonts/Hangyaku.woff2);
 }
 
 html, body {
@@ -368,7 +373,7 @@ canvas {
   display: block;
 }
 header {
-  font-family: "Crack Man", serif;
+  font-family: serif;
   font-weight: 200;
   font-size: 5rem;
   display: inline-block;
@@ -512,8 +517,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 .dark-mode header {
-  font-family: "JL", serif;
-  font-weight: 900;
+  font-family: serif;
+  font-weight: 200;
   font-size: 5rem;
   display: inline-block;
   line-height: 7rem;
