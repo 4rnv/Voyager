@@ -212,7 +212,6 @@ btn.onclick = function() {
   modal.style.display = "block";
 }
 
-// When the user clicks on X, close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
@@ -240,5 +239,5 @@ if ('serviceWorker' in navigator) {
       });
   });
 } else {
-  console.log('Service workers are not supported.');
+  console.log('Service workers are not supported (Mozilla nonsense).');
 }

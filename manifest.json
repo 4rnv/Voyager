@@ -1,5 +1,6 @@
 {
     "name": "Voyager | IEEE-VIT",
+    "version": 1.2,
     "short_name": "Voyager",
     "description": "Voyager is the flagship event of Vidyalankar Institute of Technology's IEEE student branch.",
     "lang": "en-GB",
@@ -7,7 +8,7 @@
     "id" : "./",
     "scope": "./",
     "theme_color": "#00629B",
-    "background_color": "#000000",
+    "background_color": "#00629B",
     "display_override": ["fullscreen", "minimal-ui"],
     "display": "standalone",
     "icons": [
