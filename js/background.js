@@ -223,9 +223,9 @@ window.onclick = function(event) {
   }
 }
 
-var fontType = [ "JL", "Crack Man", "Hangyaku"];
+var fontType = [ "JL", "Crack Man", "Hangyaku", "Aria", "Bloxat", "Bloxbrk", "Harryp", "Ironick", "Nicker", "Northwoodhigh", "Rubikscube", "Xitter", "Yandermo", "Avengeance"];
       var num;
-      num=Math.floor(Math.random()*3);
+      num=Math.floor(Math.random()*14);
       document.getElementById("header").style.fontFamily =fontType[num];
 
 if ('serviceWorker' in navigator) {

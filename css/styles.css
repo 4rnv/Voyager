@@ -13,6 +13,61 @@
   src: url(../fonts/Hangyaku.woff2);
 }
 
+@font-face {
+  font-family: "Aria";
+  src: url(/fonts/aria.otf);
+}
+
+@font-face {
+  font-family: "Bloxat";
+  src: url(/fonts/BloxAt.ttf);
+}
+
+@font-face {
+  font-family: "Bloxbrk";
+  src: url(/fonts/BloxBrk.ttf);
+}
+
+@font-face {
+  font-family: "Harryp";
+  src: url(/fonts/HarryP.TTF);
+}
+
+@font-face {
+  font-family: "Ironick";
+  src: url(/fonts/ironick.ttf);
+}
+
+@font-face {
+  font-family: "Nicker";
+  src: url(/fonts/nicker.ttf);
+}
+
+@font-face {
+  font-family: "Northwoodhigh";
+  src: url(/fonts/NorthwoodHigh.ttf);
+}
+
+@font-face {
+  font-family: "Rubikscube";
+  src: url(/fonts/RubiksCube.ttf);
+}
+
+@font-face {
+  font-family: "Xitter";
+  src: url(/fonts/Xitter.ttf);
+}
+
+@font-face {
+  font-family: "Yandermo";
+  src: url(/fonts/YAndermo.ttf);
+}
+
+@font-face {
+  font-family: "Avengeance";
+  src: url(/fonts/Avengeance.otf);
+}
+
 html, body {
   overflow-x: hidden;
 }
@@ -377,7 +432,7 @@ header {
   font-weight: 200;
   font-size: 5rem;
   display: inline-block;
-  line-height: 7rem;
+  line-height: 6rem;
   margin-top: 4px;
   margin-bottom: 4px;
   z-index: 9999;
@@ -391,6 +446,7 @@ p {
   text-align: center;
   position: relative;
   z-index: 9999;
+  margin-top: 4px;
 }
 
 .subhead {
@@ -521,8 +577,9 @@ html::-webkit-scrollbar-thumb {
   font-weight: 200;
   font-size: 5rem;
   display: inline-block;
-  line-height: 7rem;
-  margin-bottom: 1%;
+  line-height: 6rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
   z-index: 9999;
   color: #ffffff;
 }
