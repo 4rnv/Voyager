@@ -103,7 +103,7 @@ html, body {
 }
 
 .ev-img1 {
-  width:  100%;
+  width:  auto;
   height: fit-content;
   margin: 4px;
   /*background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/icons/ev-default.jpg);*/
@@ -114,7 +114,7 @@ html, body {
 }
 
 .ev-img2 {
-  width:  100%;
+  width:  auto;
   height: fit-content;
   margin: 4px;
   /*background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/icons/ev-default.jpg);*/
@@ -125,7 +125,7 @@ html, body {
 }
 
 .ev-img3 {
-  width:  100%;
+  width:  auto;
   height: fit-content;
   margin: 4px;
   /*background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/icons/ev-default.jpg);*/
