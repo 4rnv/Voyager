@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
   
   const resize = function () {
     canvasWidth = canvas.width = window.innerWidth * 0.95;
-    canvasHeight = canvas.height = window.innerHeight * 2;
+    canvasHeight = canvas.height = window.innerHeight * 1.5;
     centerX = canvasWidth * 0.5;
     centerY = canvasHeight * 0.5;
     context = canvas.getContext("2d");
