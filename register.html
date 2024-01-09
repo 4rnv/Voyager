@@ -71,7 +71,9 @@
     <input type="text" name="honeypot" style="display: none;">
     <input type="submit" value="Submit" />
 </form>-->
-<form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/xzbnblgz" method="post">
+
+
+<!--<form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/xzbnblgz" method="post">
   <fieldset>
     <label for="full-name">Name</label><br>
     <input type="text" name="name" id="full-name" placeholder="Enter your name" required>
@@ -97,6 +99,25 @@
   <fieldset>
     <input type="submit" value="Submit" class="submit-btn">
   </fieldset>
+</form>-->
+
+
+<form id="contactform" accept-charset="utf-8" action="https://formsubmit.io/send/7f44b44e-9b14-4853-8c4a-bde1a7162db3" method="POST">
+  <input name="_redirect" type="hidden" id="name" value="https://www.youtube.com/watch?v=BgIgKcqPd4k">
+    <label for="name">Name</label><input name="name" type="text" id="name" placeholder="Enter your full name" required>
+    <label for="email">Email</label><input name="email" type="email" id="email" placeholder="Enter your email" required>
+    <label for="phone">Phone</label><input name="phone" type="tel" id="phone" placeholder="0000-000-000" maxlength="11" required>
+    <fieldset>
+      <select name="event" required="">
+        <option value="" selected="" disabled="">Event</option>
+      	<option value="Red">Red</option>
+      	<option value="Blue">Blue</option>
+      	<option value="Green">Green</option>
+      	<option value="Yellow">Yellow</option>
+      </select>
+  </fieldset>
+    <input name="_formsubmit_id" type="text" style="display:none">
+    <input value="Submit" type="submit" class="submit-btn">
 </form>
 <div id="footer">
     <span>© 2.24 IEEE-VIT</span>
