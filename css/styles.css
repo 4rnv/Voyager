@@ -1,76 +1,91 @@
 @font-face {
   font-family: "Crack Man";
   src: url(../fonts/crackman.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "JL";
   src: url(../fonts/JL.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Hangyaku";
   src: url(../fonts/Hangyaku.woff2);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Aria";
   src: url(/fonts/aria.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Bloxat";
   src: url(/fonts/BloxAt.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Bloxbrk";
   src: url(/fonts/BloxBrk.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Harryp";
   src: url(/fonts/HarryP.TTF);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Ironick";
   src: url(/fonts/ironick.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Nicker";
   src: url(/fonts/nicker.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Northwoodhigh";
   src: url(/fonts/NorthwoodHigh.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Rubikscube";
   src: url(/fonts/RubiksCube.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Xitter";
   src: url(/fonts/Xitter.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Yandermo";
   src: url(/fonts/YAndermo.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Avengeance";
   src: url(/fonts/Avengeance.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "DinPro";
   src: url(/fonts/DINProLight.otf);
+  font-display: swap;
 }
 
 html, body {
