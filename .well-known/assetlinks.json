@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.ieeevit.voyager.twa",
+        "sha256_cert_fingerprints": ["7B:A2:DC:2E:85:83:9B:59:A3:20:4C:40:F1:74:02:DA:58:36:85:54:05:98:D4:AF:32:67:71:00:52:2A:E4:D9"]
+      }
+    }]

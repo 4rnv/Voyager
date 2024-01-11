@@ -9,7 +9,6 @@ const targetDate = new Date(2024, 0, 20);
 function getTimeRemaining(endtime) {
     var total = Date.parse(endtime) - Date.parse(new Date());
     total = total / 1000;
-    console.log(total)
     const seconds = Math.floor(total % 60);
     const minutes = Math.floor((total / 60) % 60);
     const hours = Math.floor((total / ( 60 * 60)) % 24);
