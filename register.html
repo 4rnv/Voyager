@@ -28,7 +28,7 @@
       </div>
       <nav class="nav" id="nav">
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href=".#footer">Social</a></li>
           <li><a href=".#contact">Contact</a></li>
           <li><a target="_blank" aria-label="Global Membership" href="https://www.ieee.org/membership/join/index.html">Membership</a></li>
@@ -58,57 +58,11 @@
   </div>
   </div>
 <div class="form-wrapper">
-<!--<form action="https://api.staticforms.xyz/submit" method="post" id="register-form">
-    <input type="hidden" name="accessKey" value="e44fc5d0-0b52-4cb1-9f79-fefc3800d89c"> 
-    <label for="name">Name</label><input type="text" id="name" name="name" required> 
-    <label for="subject">Subject</label><input type="text" id="subject" name="subject" required> 
-    <label for="event">Event</label><input type="text" id="event" name="$eventName" required>
-    <label for="email">Email</label><input type="text" id="email" name="email" required>
-    <label for="phone">Phone</label><input type="text" id="phone" name="phone" required> 
-    <!--<input type="text" name="replyTo" value="myreplytoemail@example.com">
-    <!-- Specify @ as reply to value if you want it to be customers email
-    <input type="hidden" name="replyTo" value="@"> <!-- Optional
-    <!-- If you want form to redirect to a specific url after submission
-    <input type="hidden" name="redirectTo" value="https://www.youtube.com/watch?v=BgIgKcqPd4k"> <!-- Optional
-    <input type="text" name="honeypot" style="display: none;">
-    <input type="submit" value="Submit" />
-</form>-->
-
-
-<!--<form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/xzbnblgz" method="post">
-  <fieldset>
-    <label for="full-name">Name</label><br>
-    <input type="text" name="name" id="full-name" placeholder="Enter your name" required>
-  </fieldset>
-  <fieldset>
-    <label for="email-address">Email Address</label><br>
-    <input type="email" name="_replyto" id="email-address" placeholder="Enter your email address" required>
-  </fieldset>
-  <fieldset>
-    <label for="phone">Phone</label><br>
-    <input type="tel" name="phone" id="phone" placeholder="0000-000-000" maxlength="11" required>
-  </fieldset>
-  <fieldset>
-      <select name="event" required="">
-        <option value="" selected="" disabled="">Event</option>
-      	<option value="Red">Red</option>
-      	<option value="Blue">Blue</option>
-      	<option value="Green">Green</option>
-      	<option value="Yellow">Yellow</option>
-      </select>
-  </fieldset>
-    <input type="hidden" name="_subject" id="email-subject" value="New Registration">
-  <fieldset>
-    <input type="submit" value="Submit" class="submit-btn">
-  </fieldset>
-</form>-->
-
-
 <form id="contactform" accept-charset="utf-8" action="https://formsubmit.io/send/7f44b44e-9b14-4853-8c4a-bde1a7162db3" method="POST">
   <input name="_redirect" type="hidden" id="name" value="https://voyager24.vercel.app/success.html">
     <label for="name">Name</label><input name="name" type="text" id="name" placeholder="Enter your full name" required>
     <label for="email">Email</label><input name="email" type="email" id="email" placeholder="Enter your email" required>
-    <label for="phone">Phone</label><input name="phone" type="tel" id="phone" placeholder="0000-000-000" maxlength="11" required>
+    <label for="phone">Phone</label><input name="phone" type="tel" id="phone" placeholder="Enter your phone number" required pattern="[0-9]+" maxlength="11" minlength="10" required>
     <fieldset>
       <select name="event" required="">
         <option value="" selected="" disabled="">Event</option>
